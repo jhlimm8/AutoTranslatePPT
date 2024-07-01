@@ -1,6 +1,7 @@
 from pptx import Presentation
 import re
 import argparse
+from pptx.enum.text import MSO_AUTO_SIZE
 
 def is_chinese(text):
     """Check if the text contains Chinese characters."""
@@ -50,6 +51,7 @@ def process_slide(slide, api_key, api_client, api_model):
                     print(f"Translated text: {translated_text}")
                     # Replace the original text with the translated text
                     paragraph.text = translated_text
+            text_frame.fit_text()
 
 def process_presentation(input_path, output_path, api_key, api_client, api_model):
     """Process the entire presentation and save the modified version."""
