@@ -7,7 +7,7 @@ The below example is part of the input.pptx and output.pptx files above, which u
 ![image](https://github.com/jhlimm8/AutoTranslatePPT/assets/103594440/3cb198ff-2a0e-4a37-9829-d431b49c737f)
 
 # quick start
-This program supports integration with the APIs from OpenAI, TogetherAI, and Groq. This allows the user to choose from a range of different models at different price-to-performance ratios.
+This program supports integration with the OpenAI, TogetherAI, and Groq APIs. This allows the user to choose from a range of different models at different price-to-performance levels.
 
 To specify the desired API provider and model, pass their names as arguments in your code.
 ## Using gpt 3.5 turbo via OpenAI API
